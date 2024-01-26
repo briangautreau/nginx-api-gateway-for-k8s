@@ -4,7 +4,7 @@ Task 04: OpenAPI Spec Enforcement with NGINX App Protect
 Our API has two endpoints:
 
 - ``https://jobs.local/get-job`` is used to GET a random job title.
-- ``https://jobs.local/add-job`` is will accept an HTTP POST with a list of job titles in JSON format. For example:
+- ``https://jobs.local/add-job`` will accept an HTTP POST with a list of job titles in JSON format. For example:
 
 .. code-block:: yaml
 
@@ -13,9 +13,9 @@ Our API has two endpoints:
 In the URL bar of the web browser, connect to the ``https://jobs.local/`` API endpoint.
 
 - Press [F12] to reveal the Firefox Developer Tools
-- Select 'Network' and 'Response' just like the screenshot below 
+- In Developer Tools, select 'Network' and 'Response'
 - Press [F5] to create a new HTTP request
-- Right-click on the 'add-job' request just like in the screenshot below
+- Right-click on the '/' request
 - Select 'Edit and Resend'
 - On the left-hand side, in the 'New Request' section, select [Clear]
 - Fill in the values just like the table below
